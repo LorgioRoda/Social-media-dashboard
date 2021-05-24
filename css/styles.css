@@ -15,8 +15,12 @@
 .wrapper{
     padding: 0 30px;
 }
+.grid{
+    display: grid;
+    grid-row-gap: 30px;
+}
 .card {
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
     background: #f0f3fa;
     text-align: center;
@@ -64,3 +68,4 @@
 .card-today img {
     margin-right: 5px;
 }
+
