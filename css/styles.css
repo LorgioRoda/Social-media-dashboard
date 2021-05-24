@@ -9,7 +9,6 @@
     --Dark-Grayish-Blue: hsl(228, 12%, 44%) /* Text */
 }
 * {
-    margin: 0;
     box-sizing: 0;
     font-family: 'Inter', sans-serif;
 }
@@ -27,6 +26,8 @@
     align-items: center;
     justify-content: center;
     color: var(--Dark-Grayish-Blue);
+    font-size: .9em;
+    font-weight: bold;
 }
 .card-title img {
     margin-right: 5px;
@@ -47,4 +48,19 @@
 .card-followers-title{
     display: block;
     text-transform: uppercase;
+    color: var(--Dark-Grayish-Blue);
+    letter-spacing: 4px;
+    font-size: .7em;
+}
+.card-today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: var(--Lime-Green);
+    font-size: .7em;
+    font-weight: bold;
+}
+.card-today img {
+    margin-right: 5px;
 }
