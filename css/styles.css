@@ -1,0 +1,50 @@
+:root {
+    --Lime-Green: hsl(163, 72%, 41%);
+    --Bright-Red: hsl(356, 69%, 56%);
+    --Facebook: hsl(208, 92%, 53%);
+    --Twitter: hsl(203, 89%, 53%);
+    --Instagram1: linear gradient hsl(37, 97%, 70%);
+    --Instagram2: linear gradient hsl(329, 70%, 58%);
+    --YouTube: hsl(348, 97%, 39%);
+    --Dark-Grayish-Blue: hsl(228, 12%, 44%) /* Text */
+}
+* {
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Inter', sans-serif;
+}
+.wrapper{
+    padding: 0 30px;
+}
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f0f3fa;
+    text-align: center;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Dark-Grayish-Blue);
+}
+.card-title img {
+    margin-right: 5px;
+}
+.card::before{
+    content: '';
+    height: 4px;
+    display: block;
+    background:var(--Facebook);
+}
+.card-followers{
+
+}
+.card-followers-number{
+    font-size: 50px;
+    font-weight: 700;
+}
+.card-followers-title{
+    display: block;
+    text-transform: uppercase;
+}
