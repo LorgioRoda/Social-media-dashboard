@@ -11,16 +11,17 @@
   <title>Frontend Mentor | [Challenge Name Here]</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <div class="wrapper">
       <h1>Social Media Dashboard</h1>
-      <p>Total Followers: 23,004</p>
+      <p class="header-total">Total Followers: 23,004</p>
     </div>
-    <section class="">
+  </header>
+    <section class="top-card">
       <div class="wrapper">
-       <div class="grid">
+        <div class="grid">
          <!-- Facebook -->
-         <article class="card">
+         <article class="card Facebook">
            <p card-title>
              <img src="images/icon-facebook.svg" alt="">
              @LorgioRoda
@@ -34,7 +35,7 @@
            </p>
          </article>
          <!-- Twitter -->
-         <article class="card">
+         <article class="card Twitter">
            <p card-title>
              <img src="images/icon-twitter.svg" alt="">
              @LorgioRoda
@@ -48,7 +49,7 @@
            </p>
          </article>
          <!-- Instagram -->
-         <article class="card">
+         <article class="card Instagram">
            <p card-title>
              <img src="images/icon-instagram.svg" alt="">
              @LorgioRoda
@@ -61,7 +62,8 @@
                30 Today</p>
            </p>
          </article>
-         <article class="card">
+         <!-- Youtube -->
+         <article class="card Youtube">
            <p card-title>
              <img src="images/icon-youtube.svg" alt="">
              @LorgioRoda
@@ -77,10 +79,13 @@
        </div>
       </div>
     </section>
-    <section>
-
+    <section class="overview">
+      <div class="wrapper">
+        <div class="card-small">
+          
+        </div>
+      </div>
     </section>
-  </header>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
