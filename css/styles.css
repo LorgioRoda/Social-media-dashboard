@@ -1,3 +1,4 @@
+/* Display none */
 :root {
     --Lime-Green: hsl(163, 72%, 41%);
     --Bright-Red: hsl(356, 69%, 56%);
@@ -32,7 +33,8 @@ h1 {
 }
 /* Card */
 .top-card{
-    margin-top:-70px;
+    margin-top:-50px;
+    margin-bottom: 3em;
 }
 .wrapper{
     padding: 0px 30px;
@@ -105,3 +107,78 @@ h1 {
     margin-right: 5px;
 }
 
+/* Overview */
+.overview {
+    padding-bottom: 2rem;
+}
+h2 {
+    color: var(--Dark-Grayish-Blue);
+}
+.card-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    background: #f0f3fa;
+    border-radius: 8px;
+    padding: 1.7em;
+}
+.card-small p {
+    margin: 0;
+}
+.card-small-view {
+    color: var(--Dark-Grayish-Blue);
+    font-weight: bold;
+    font-size: .9em;
+}
+.card-small-icon {
+    text-align: right;
+}
+.card-small-number {
+    font-weight: bold;
+    font-size: 2.3em;
+}
+.card-small-percentage {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: var(--Lime-Green);
+    font-size: .8em;
+}
+.card-small-percentage.red{
+    color: var(--Bright-Red);
+}
+.card-small-percentage span {
+    display: flex;
+    align-items: center;
+}
+.card-small-percentage img {
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 480px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 600px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+}
+@media screen and (min-width: 768px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 1.5em;
+    }
+    .wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
