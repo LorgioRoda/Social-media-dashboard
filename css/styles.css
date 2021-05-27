@@ -80,8 +80,7 @@ h1 {
   font-size: 1.7em;
 }
 /* top card  */
-.top-cards {
-  /* border: 1px solid green; */
+.top-card {
   margin-top: -50px;
   margin-bottom: 3em;
 }
@@ -132,17 +131,11 @@ h1 {
   margin-right: 5px;
 }
 
-.card-followers {
-  /* border: 1px solid green; */
-}
-
 .card-followers-number {
-  /* border: 1px solid red; */
   font-size: 50px;
   font-weight: 700;
 }
 .card-followers-title {
-  /* border: 1px solid blue; */
   display: block;
   text-transform: uppercase;
   color: var(--cardTitle);
