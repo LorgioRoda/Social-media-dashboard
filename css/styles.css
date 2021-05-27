@@ -214,7 +214,7 @@ h2 {
   margin-right: 5px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 520px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
